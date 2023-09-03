@@ -1,13 +1,151 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-h6{
-    color: #012555;
-font-family: Bai Jamjuree;
-font-size: 21.714px;
+.job {
+  color: #012555;
+  font-family: Bai Jamjuree;
+  font-size: 21.714px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 175% */
+  letter-spacing: -0.869px;
+}
+.text-color {
+  color:var(--textlabelcolorscharcoal, #595959);
+}
+.career {
+  color: var(--BLACK, #2b2f34);
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%; /* 65px */
+  letter-spacing: -0.75px;
+}
+.header {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.love {
+  margin-top: 80px;
+}
+.w-65 {
+  width: 65%;
+}
+.w-28 {
+  width: 28%;
+}
+.career-2{
+    color: var(--BLACK, #2B2F34);
+text-align: center;
+font-family: ABeeZee;
+font-size: 32px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%; /* 48px */
+letter-spacing: -0.48px;
+}
+.box{
+    border-radius: 18px;
+background: #FFF;
+box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+.input-border{
+    width:90%;
+     margin:20px;
+     margin-top: 10px;
+}
+.apply{
+    font-size:14px;
+}
+.section3{
+    background-color: #ECF8FF;
+    margin-bottom: 70px;
+    
+}
+.sechead{
+    text-align: center;
+font-family: ABeeZee;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+padding-top: 60px;
+}
+.sec3{
+    margin:80px;
+  
+}
+.beginner{
+    padding:0 120px;
+}
+
+.my-card1{
+
+    border:1px solid blue;
+}
+.first{
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+}
+.beginner1{
+    color: #1D78B0;
+font-family: ?????;
+font-size: 14px;
 font-style: normal;
-font-weight: 600;
-line-height: 38px; /* 175% */
-letter-spacing: -0.869px;
+font-weight: 400;
+line-height: normal;
+background-color:#E0F3FF;
+border-radius:6px;
+}
+.sec4{
+    text-align: center;
+}
+.partner{
+    color:#BFC6F8
+}
+.sec4>h1{
+   
+   color: var(--BLACK, #2B2F34);
+text-align: center;
+font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%; /* 63px */
+letter-spacing: -0.63px;
+}
+.companies{
+    margin: 3px 140px;
+}
+.last{
+    margin:100px
+}
+.cricketers{
+    color: var(--BLACK, #2B2F34);
+font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%; /* 63px */
+letter-spacing: -0.63px;
+}
+.paras{
+    margin:40px 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footers{
+    width:32%;
+    padding:10px;
+    border-radius: 10px;
+border: 2px solid #D7D7D7;
+background: #FFF;
+box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+margin-top:10px;
 }
